@@ -1,12 +1,12 @@
-let intro = document.getElementById('intro');
+let home = document.getElementById('home');
 let experience = document.getElementById('experience');
 let skill = document.getElementById('skill');
-let project = document.getElementById('project');
-let contact = document.getElementById('contact');
+// let project = document.getElementById('project');
+// let contact = document.getElementById('contact');
 
 let aHref = document.querySelectorAll('a');
 
-let active = 'intro';
+let active = 'home';
 let zIndex = 2;
 
 aHref.forEach(a => {

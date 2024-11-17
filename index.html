@@ -12,46 +12,64 @@
 
 <body>
 
+    <video autoplay muted loop playsinline id="background-video">
+        <source src="images/Aura.mp4" type="video/mp4">
+        Dein Browser unterstützt kein HTML5-Video.
+    </video>
+
     <header>
         <nav>
-            <a data-tab="intro">Home</a>
-            <a data-tab="experience">Social Media</a>
-            <a data-tab="skill">Unsere Leistungen</a>
-            <!-- <a data-tab="project">Project</a> -->
-            <a data-tab="contact">Kontakt</a>
+            <a data-tab="home">Home</a>
+
+            <!-- <a data-tab="experience">Experience</a> -->
+
+            <!-- <a data-tab="skill">Skill</a> -->
         </nav>
     </header>
 
-    <div class="tab" id="intro">
+    <div class="tab" id="home">
         <div class="container">
-            <div class="avatar">
-                <img src="images/Porsche911_adobe.png">
-            </div>
             <div class="content">
-                <div class="name">
-                    <!-- LACKWERK Windeck -->
-                    <img src="images/logo.jpg">
-                </div>
-                <div class="job">
-                    <span class="text-gradient">
-                        Lackierei
-                    </span>
-                </div>
+                <div class="title text-gradient">LACKWERK Windeck</div>
                 <div class="des">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse dolorum vero a, quibusdam ipsa eius
-                    aliquid incidunt totam vel itaque exercitationem doloribus tenetur officia repellendus velit in
-                    distinctio optio quisquam.
+                    <!-- 50 -->
+                    Unsere Website befindet sich gerade im Aufbau.
+
+                    Vielen Dank für Ihr Interesse an unserem Unternehmen! Wir arbeiten fleißig daran, Ihnen hier bald
+                    alle Informationen rund um unsere hochwertigen Lackierdienstleistungen bereitzustellen.
+
+                    In der Zwischenzeit stehen wir Ihnen selbstverständlich gerne persönlich zur Verfügung. Bei Fragen ruft uns einfach an oder schreibt eine Email
+
+                    Ihr findet uns natürlich auch bei social Media, schaut einfach mal vorbei!
                     <br>
-                    Schau dir
-                    <a class="text-gradient" data-tab="skill">unsere Leistungen </a>
-                    an
+                    <!-- <a data-tab="intro" class="text-gradient">zurück zum Anfang</a> -->
                 </div>
-                <!-- <i class="fa-solid fa-quote-right"></i> -->
+                <div class="list">
+                    <div class="item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+4922929561198" style="text-decoration: none;">Tel.: 02292 / 95 61-198</a>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="mailto:info@lackwerk-windeck.de">info@lackwerk-windeck.de</a>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a href="https://www.instagram.com/lackwerk_windeck/" target="_blank">@lackwerk_windeck</a>
+                    </div>
+
+                    <div class="item">
+                        <i class="fa-brands fa-facebook"></i>
+                        <a href="https://www.facebook.com/people/Lackwerk-Windeck/61555813755162/" target="_blank">Lackwerk Windeck</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="tab" id="experience">
+    <!-- <div class="tab" id="experience">
         <div class="container">
             <div class="list">
                 <div class="item">
@@ -63,7 +81,7 @@
                         <div class="job">I'm Go To School</div>
                         <div class="company">Name School</div>
                         <div class="des">
-                            <!-- 15 -->
+                            
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates perspiciatis veniam
                             animi reiciendis autem perferendis.
                         </div>
@@ -77,7 +95,7 @@
                         <div class="job">BackEnd Developer</div>
                         <div class="company">Name Company</div>
                         <div class="des">
-                            <!-- 15 -->
+                            
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates perspiciatis veniam
                             animi reiciendis autem perferendis.
                         </div>
@@ -91,7 +109,7 @@
                         <div class="job">FrondEnd Developer</div>
                         <div class="company">Name Company ABC</div>
                         <div class="des">
-                            <!-- 15 -->
+                            
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates perspiciatis veniam
                             animi reiciendis autem perferendis.
                         </div>
@@ -105,7 +123,7 @@
                         <div class="job">FullStack Developer</div>
                         <div class="company">Name Company AAA</div>
                         <div class="des">
-                            <!-- 15 -->
+                            
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates perspiciatis veniam
                             animi reiciendis autem perferendis.
                         </div>
@@ -113,16 +131,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="tab" id="skill">
+    <!-- <div class="tab" id="skill">
         <div class="container">
             <div class="list">
                 <div class="item">
                     <i class="fa-brands fa-css3-alt"></i>
                     <div class="name">Fahrzeuglackierung</div>
                     <div class="des">
-                        <!-- 7 -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div>
@@ -131,7 +149,7 @@
                     <i class="fa-brands fa-html5"></i>
                     <div class="name">Fahrzeugaufbereitung</div>
                     <div class="des">
-                        <!-- 7 -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div>
@@ -140,7 +158,7 @@
                     <i class="fa-brands fa-js"></i>
                     <div class="name">Dellentechnik</div>
                     <div class="des">
-                        <!-- 7 -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div>
@@ -149,7 +167,7 @@
                     <i class="fa-brands fa-react"></i>
                     <div class="name">Karosserieinstandsetzung (in Kooperation)</div>
                     <div class="des">
-                        <!-- 7 -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div>
@@ -158,12 +176,12 @@
                     <i class="fa-brands fa-php"></i>
                     <div class="name">Karosserieinstandsetzung (in Kooperation)</div>
                     <div class="des">
-                        <!-- 7 -->
+                        
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div>
 
-                <!--
+                
                  <div class="item">
                     <i class="fa-brands fa-angular"></i>
                     <div class="name">Angular</div>
@@ -172,143 +190,15 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                     </div>
                 </div> 
-            -->
+           
 
 
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="tab" id="project">
-        <div class="container">
-            <div class="list">
-                <div class="item">
-                    <img src="images/project1.jpg">
-                    <div class="index">#1</div>
-                    <div class="name">Name Project</div>
-                    <div class="des">
-                        <!-- 20 -->
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sint? Amet minus similique
-                        officiis enim impedit unde cumque id corrupti!
-                    </div>
-                    <div class="author">
-                        <div class="job">FullStack</div>
-                        <div class="time">
-                            2022/10/10
-                            <i class="fa-regular fa-clock"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/project2.jpg">
-                    <div class="index">#2</div>
-                    <div class="name">Name Project</div>
-                    <div class="des">
-                        <!-- 20 -->
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sint? Amet minus similique
-                        officiis enim impedit unde cumque id corrupti!
-                    </div>
-                    <div class="author">
-                        <div class="job">FullStack</div>
-                        <div class="time">
-                            2022/10/10
-                            <i class="fa-regular fa-clock"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/project3.jpg">
-                    <div class="index">#3</div>
-                    <div class="name">Name Project</div>
-                    <div class="des">
-                        <!-- 20 -->
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sint? Amet minus similique
-                        officiis enim impedit unde cumque id corrupti!
-                    </div>
-                    <div class="author">
-                        <div class="job">FullStack</div>
-                        <div class="time">
-                            2022/10/10
-                            <i class="fa-regular fa-clock"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="images/project4.jpg">
-                    <div class="index">#4</div>
-                    <div class="name">Name Project</div>
-                    <div class="des">
-                        <!-- 20 -->
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sint? Amet minus similique
-                        officiis enim impedit unde cumque id corrupti!
-                    </div>
-                    <div class="author">
-                        <div class="job">FullStack</div>
-                        <div class="time">
-                            2022/10/10
-                            <i class="fa-regular fa-clock"></i>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="item">
-                    <img src="images/project5.jpg">
-                    <div class="index">#5</div>
-                    <div class="name">Name Project</div>
-                    <div class="des">
-                        <!-- 20 -->
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, sint? Amet minus similique
-                        officiis enim impedit unde cumque id corrupti!
-                    </div>
-                    <div class="author">
-                        <div class="job">FullStack</div>
-                        <div class="time">
-                            2022/10/10
-                            <i class="fa-regular fa-clock"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <div class="tab" id="contact">
-        <div class="container">
-            <div class="content">
-                <div class="thank text-gradient">Kontaktiere uns!</div>
-                <div class="des">
-                    <!-- 50 -->
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, laborum! Vitae perspiciatis error
-                    nobis dolore corrupti quos dolorum a veniam rem praesentium harum nam ipsum modi, in dignissimos
-                    voluptatem nesciunt eveniet, nihil doloremque. Eos, repellendus mollitia nemo soluta ex eum aliquid
-                    voluptates saepe voluptate minima! Commodi voluptatibus maxime suscipit ullam.
-                    <br>
-                    <a data-tab="intro" class="text-gradient">zurück zum Anfang</a>
-                </div>
-                <div class="list">
-                    <div class="item">
-                        <i class="fa-solid fa-phone"></i>
-                        Tel.: 02292 / 95 61-198
-                    </div>
-
-                    <div class="item">
-                        <i class="fa-regular fa-envelope"></i>
-                        info@lackwerk-windeck.de
-                    </div>
-
-                    <div class="item">
-                        <i class="fa-brands fa-instagram"></i>
-                        @lackwerk_windeck
-                    </div>
-
-                    <div class="item">
-                        <i class="fa-brands fa-facebook"></i>
-                        Lackwerk Windeck
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
     <script src="app.js"></script>
