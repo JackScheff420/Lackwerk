@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,6 +6,23 @@ body{
     color: var(--color);
     background-color: #23282E;
 }
+footer{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 15px;
+    left: 0;
+    margin: 0;
+    z-index: 9999;
+}
+footer a {
+    color: #483d8b;
+    text-decoration: none;    
+}
+footer a:hover {
+    color: #5e50b6;
+}
+
 a{
     text-decoration: none;
     cursor: pointer;
@@ -100,6 +116,51 @@ header nav a{
     color: #293b4c;
 } */
 
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none; /* Hintergrund hinter den Inhalten */
+}
+/* home */
+#home{
+    /* background: #2d2e30; */
+    /* background-image: url(images/Random\ static.png); */
+}
+#home .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#home .title{
+    font-size: 5em;
+    font-weight: bold;
+    display: block;
+}
+#home .des{
+    width: 500px;
+    max-width: 80%;
+    text-align: center;
+}
+#home .list{
+    text-align: center;
+}
+#home .list .item{
+    display: inline-block;
+    margin: 10px 30px;
+}
+#home .list .item a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
 /* skills */
 #skill{
     background-color: #F2F0EB;
@@ -151,7 +212,7 @@ header nav a{
 }
 
 /* project */
-#project{
+/* #project{
     background-color: #cfbaba;
     color: #444B57;
 }
@@ -201,7 +262,7 @@ header nav a{
 }
 #project .container{
     overflow: auto;
-}
+} */
 /* experience */
 #experience{
     background-image: linear-gradient(
@@ -276,48 +337,7 @@ header nav a{
     overflow: auto;
     padding: 50px;
 }
-#background-video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Hintergrund hinter den Inhalten */
-}
-#home{
-    /* background: #2d2e30;
-    background-image: url(images/Random\ static.png); */
-}
-#home .content{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#home .title{
-    font-size: 5em;
-    font-weight: bold;
-    display: block;
-}
-#home .des{
-    width: 500px;
-    max-width: 80%;
-    text-align: center;
-}
-#home .list{
-    text-align: center;
-}
-#home .list .item{
-    display: inline-block;
-    margin: 10px 30px;
-}
-#home .list .item a{
-    color: #fff;
-    text-decoration: underline;
-    font-weight: lighter;
-}
+
 
 
 @media screen and (max-width: 991px){
@@ -383,7 +403,7 @@ header nav a{
     clip-path: circle(
         200% at var(--x) var(--y)
     );
-    animation: showTab 1s ease-in-out 1;
+    animation: showTab 2s ease-in-out 1;
 }
 @keyframes showTab{
     from{
